@@ -1,0 +1,5 @@
+﻿  GameplayScreen.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritefont.h(36): warning C4099: 'SPH::GLTexture': type name first seen using 'struct' now seen using 'class'
+  c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\gltexture.h(6): note: see declaration of 'SPH::GLTexture'
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\rock miner\gameplayscreen.cpp(284): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Rock Miner.vcxproj -> C:\Users\Stephen\Documents\Visual Studio 2015\Projects\Rock Miner\Debug\Rock Miner.exe

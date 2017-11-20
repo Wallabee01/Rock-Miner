@@ -1,0 +1,48 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Prototype GameEngine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Window.cpp
+  Timing.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\timing.cpp(22): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\timing.cpp(25): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\timing.cpp(39): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\timing.cpp(42): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+  TextureCache.cpp
+  SpriteFont.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritefont.cpp(38): warning C4316: 'glm::tvec4<int,0>': object allocated on the heap may not be aligned 16
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritefont.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritefont.cpp(109): warning C4244: '*=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritefont.cpp(144): warning C4316: 'SPH::CharGlyph': object allocated on the heap may not be aligned 16
+  SpriteBatch.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritebatch.cpp(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritebatch.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\spritebatch.cpp(153): warning C4018: '<': signed/unsigned mismatch
+  Sprite.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\sprite.cpp(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\sprite.cpp(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\sprite.cpp(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\sprite.cpp(25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ResourceManager.cpp
+  picoPNG.cpp
+  IOManager.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\iomanager.cpp(17): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\iomanager.cpp(21): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\iomanager.cpp(42): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\iomanager.cpp(46): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+  InputManager.cpp
+  ImageLoader.cpp
+  GLSLProgram.cpp
+  GameEngine.cpp
+  SPHErrors.cpp
+  ScreenList.cpp
+  ParticleEngine2D.cpp
+  ParticleBatch2D.cpp
+  IMainGame.cpp
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\imaingame.cpp(39): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\imaingame.cpp(48): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+c:\users\stephen\documents\visual studio 2015\projects\rock miner\gameengine\imaingame.cpp(93): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  DebugRenderer.cpp
+  Camera2D.cpp
+  Generating Code...
+  Compiling...
+  AudioEngine.cpp
+  Generating Code...
+  GameEngine.vcxproj -> c:\users\stephen\documents\visual studio 2015\Projects\Rock Miner\Debug\GameEngine.lib

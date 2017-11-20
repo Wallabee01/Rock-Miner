@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{2aed7cdb-9247-44fd-b6ac-2cae63169e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{ce9c9891-9a3f-4275-8232-0beddfc544d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents">
+      <UniqueIdentifier>{523cb494-95a8-40d0-a377-419a09b2b995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents">
+      <UniqueIdentifier>{d2537fb9-6d13-40e5-be64-e46bb7d2879b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{4e6b95f3-48a6-4f3d-b5cb-f7e93fd9f9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{8bb317d7-8fa2-4d85-a667-8aa9299600f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deps">
+      <UniqueIdentifier>{ffaa5d45-0240-45dc-9216-bc8ec98826fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deps\tinyXml">
+      <UniqueIdentifier>{dd4d940d-327e-4c2d-ad6f-9857939839a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deps\zlib">
+      <UniqueIdentifier>{310aa8e0-2715-46dd-863e-d87fb49ec518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deps\TmxParser">
+      <UniqueIdentifier>{b157e54a-1ba6-4d97-a3d6-b6ae2b586929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps">
+      <UniqueIdentifier>{f4d2705c-cfa7-40e5-bcb1-67873560d89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\TmxParser">
+      <UniqueIdentifier>{307b7193-506e-4675-a761-9e77bb379256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\tinyXml">
+      <UniqueIdentifier>{8ad68f52-db00-4a31-9efc-f111b1dd7a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\zlib">
+      <UniqueIdentifier>{8b96a4f8-5025-4a41-92a4-10351565b81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deps\TmxParser\base64">
+      <UniqueIdentifier>{48bdda4f-7a87-4ede-909c-a6aafaaab83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\TmxParser\base64">
+      <UniqueIdentifier>{742b09bd-1469-4824-b902-bb02e380bcac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayScreen.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxEllipse.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxImage.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxImageLayer.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxLayer.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxMap.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxMapTile.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxObject.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxObjectGroup.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxPoint.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxPolygon.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxPolyline.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxProperty.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxPropertySet.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxTerrain.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxTerrainArray.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxTile.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxTileLayer.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxTileOffset.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxTileset.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\TmxUtil.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\Tmx.h">
+      <Filter>Header Files\deps\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tinyXml2\tinyxml2.h">
+      <Filter>Header Files\deps\tinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inftrees.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\trees.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\zconf.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\zlib.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\zutil.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inffast.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inffixed.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inflate.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\deflate.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\gzguts.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\crc32.h">
+      <Filter>Header Files\deps\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tmxParser\base64\base64.h">
+      <Filter>Header Files\deps\TmxParser\base64</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayScreen.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxUtil.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\miniz.c">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxEllipse.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxImage.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxImageLayer.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxLayer.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxMap.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxObject.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxObjectGroup.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxPolygon.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxPolyline.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxProperty.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxPropertySet.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxTerrain.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxTerrainArray.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxTile.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxTileLayer.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxTileOffset.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\TmxTileset.cpp">
+      <Filter>Source Files\deps\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tinyXml2\tinyxml2.cpp">
+      <Filter>Source Files\deps\tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\crc32.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\deflate.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\gzclose.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\gzlib.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\gzread.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\gzwrite.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\infback.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\inffast.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\inflate.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\inftrees.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\trees.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\uncompr.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\zutil.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\adler32.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\compress.c">
+      <Filter>Source Files\deps\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tmxParser\base64\base64.cpp">
+      <Filter>Source Files\deps\TmxParser\base64</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

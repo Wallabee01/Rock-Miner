@@ -1,0 +1,45 @@
+﻿  AudioEngine.cpp
+  Camera2D.cpp
+  DebugRenderer.cpp
+  IMainGame.cpp
+IMainGame.cpp(39): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+IMainGame.cpp(48): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+IMainGame.cpp(93): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  ParticleBatch2D.cpp
+  ParticleEngine2D.cpp
+  ScreenList.cpp
+  SPHErrors.cpp
+  GameEngine.cpp
+  GLSLProgram.cpp
+  ImageLoader.cpp
+  InputManager.cpp
+  IOManager.cpp
+IOManager.cpp(17): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+IOManager.cpp(21): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+IOManager.cpp(42): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+IOManager.cpp(46): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+  picoPNG.cpp
+  ResourceManager.cpp
+  Sprite.cpp
+Sprite.cpp(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+Sprite.cpp(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+Sprite.cpp(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+Sprite.cpp(25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  SpriteBatch.cpp
+SpriteBatch.cpp(91): warning C4018: '<': signed/unsigned mismatch
+SpriteBatch.cpp(120): warning C4018: '<': signed/unsigned mismatch
+SpriteBatch.cpp(153): warning C4018: '<': signed/unsigned mismatch
+  SpriteFont.cpp
+SpriteFont.cpp(38): warning C4316: 'glm::tvec4<int,0>': object allocated on the heap may not be aligned 16
+SpriteFont.cpp(99): warning C4018: '<': signed/unsigned mismatch
+SpriteFont.cpp(109): warning C4244: '*=': conversion from 'float' to 'unsigned char', possible loss of data
+SpriteFont.cpp(144): warning C4316: 'SPH::CharGlyph': object allocated on the heap may not be aligned 16
+  TextureCache.cpp
+  Timing.cpp
+Timing.cpp(22): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+Timing.cpp(25): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+Timing.cpp(39): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+Timing.cpp(42): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+  Compiling...
+  Window.cpp
+  GameEngine.vcxproj -> c:\users\stephen\documents\visual studio 2015\Projects\Rock Miner\Release\GameEngine.lib

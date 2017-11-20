@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C041E17-105C-4AEB-B4F5-F04F4FB97B49}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Rock_Miner</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\;</IncludePath>
+    <LibraryPath>$(SolutionDir)\deps\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir);$(SolutionDir)\deps\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps\libs\win32;$(SolutionDir)Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\Rock Miner\deps\zlib\;$(SolutionDir)\Rock Miner\deps\tmxParser\;$(SolutionDir)\Rock Miner\deps\tinyXml2\;C:\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Debug;C:\SDL\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_mixer.lib;SDL2_ttf.lib;opengl32.lib;glew32.lib;GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)deps\include;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Release;$(SolutionDir)deps\lib\win32;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_mixer.lib;SDL2_ttf.lib;opengl32.lib;glew32.lib;GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agent.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="deps\tinyXml2\tinyxml2.h" />
+    <ClInclude Include="deps\tmxParser\base64\base64.h" />
+    <ClInclude Include="deps\tmxParser\Tmx.h" />
+    <ClInclude Include="deps\tmxParser\TmxEllipse.h" />
+    <ClInclude Include="deps\tmxParser\TmxImage.h" />
+    <ClInclude Include="deps\tmxParser\TmxImageLayer.h" />
+    <ClInclude Include="deps\tmxParser\TmxLayer.h" />
+    <ClInclude Include="deps\tmxParser\TmxMap.h" />
+    <ClInclude Include="deps\tmxParser\TmxMapTile.h" />
+    <ClInclude Include="deps\tmxParser\TmxObject.h" />
+    <ClInclude Include="deps\tmxParser\TmxObjectGroup.h" />
+    <ClInclude Include="deps\tmxParser\TmxPoint.h" />
+    <ClInclude Include="deps\tmxParser\TmxPolygon.h" />
+    <ClInclude Include="deps\tmxParser\TmxPolyline.h" />
+    <ClInclude Include="deps\tmxParser\TmxProperty.h" />
+    <ClInclude Include="deps\tmxParser\TmxPropertySet.h" />
+    <ClInclude Include="deps\tmxParser\TmxTerrain.h" />
+    <ClInclude Include="deps\tmxParser\TmxTerrainArray.h" />
+    <ClInclude Include="deps\tmxParser\TmxTile.h" />
+    <ClInclude Include="deps\tmxParser\TmxTileLayer.h" />
+    <ClInclude Include="deps\tmxParser\TmxTileOffset.h" />
+    <ClInclude Include="deps\tmxParser\TmxTileset.h" />
+    <ClInclude Include="deps\tmxParser\TmxUtil.h" />
+    <ClInclude Include="deps\zlib\crc32.h" />
+    <ClInclude Include="deps\zlib\deflate.h" />
+    <ClInclude Include="deps\zlib\gzguts.h" />
+    <ClInclude Include="deps\zlib\inffast.h" />
+    <ClInclude Include="deps\zlib\inffixed.h" />
+    <ClInclude Include="deps\zlib\inflate.h" />
+    <ClInclude Include="deps\zlib\inftrees.h" />
+    <ClInclude Include="deps\zlib\trees.h" />
+    <ClInclude Include="deps\zlib\zconf.h" />
+    <ClInclude Include="deps\zlib\zlib.h" />
+    <ClInclude Include="deps\zlib\zutil.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="GameplayScreen.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agent.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="deps\tinyXml2\tinyxml2.cpp" />
+    <ClCompile Include="deps\tmxParser\base64\base64.cpp" />
+    <ClCompile Include="deps\tmxParser\miniz.c" />
+    <ClCompile Include="deps\tmxParser\TmxEllipse.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxImage.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxImageLayer.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxLayer.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxMap.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxObject.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxObjectGroup.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxPolygon.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxPolyline.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxProperty.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxPropertySet.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxTerrain.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxTerrainArray.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxTile.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxTileLayer.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxTileOffset.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxTileset.cpp" />
+    <ClCompile Include="deps\tmxParser\TmxUtil.cpp" />
+    <ClCompile Include="deps\zlib\adler32.c" />
+    <ClCompile Include="deps\zlib\compress.c" />
+    <ClCompile Include="deps\zlib\crc32.c" />
+    <ClCompile Include="deps\zlib\deflate.c" />
+    <ClCompile Include="deps\zlib\gzclose.c" />
+    <ClCompile Include="deps\zlib\gzlib.c" />
+    <ClCompile Include="deps\zlib\gzread.c" />
+    <ClCompile Include="deps\zlib\gzwrite.c" />
+    <ClCompile Include="deps\zlib\infback.c" />
+    <ClCompile Include="deps\zlib\inffast.c" />
+    <ClCompile Include="deps\zlib\inflate.c" />
+    <ClCompile Include="deps\zlib\inftrees.c" />
+    <ClCompile Include="deps\zlib\trees.c" />
+    <ClCompile Include="deps\zlib\uncompr.c" />
+    <ClCompile Include="deps\zlib\zutil.c" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GameplayScreen.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tree.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
